@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#pop_star{
+    width: 500px;
+    height: 100%;
+    background: url('./bg.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-size: cover;
+    font-size: 0px;
+}
+#target_score{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 16px;
+}
+#now_score{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 16px;
+}
+#select_score{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 16px;
+    opacity: 0;
+}
